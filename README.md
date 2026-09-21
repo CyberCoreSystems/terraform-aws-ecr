@@ -1,5 +1,7 @@
 # ECR Repository
 
+[![IaC Bazaar: live-tested](https://www.iac-bazaar.com/api/artifacts/aws-ecr/badge)](https://www.iac-bazaar.com/catalog/aws-ecr?utm_source=syndication&utm_medium=readme&utm_campaign=artifact)
+
 ECR repo with lifecycle rules, scan-on-push, immutable tags, and cross-account/replication policies.
 
 This module was **applied to a real AWS account, verified, and destroyed** on 2026-06-11 - not just `terraform validate`d.
@@ -45,7 +47,8 @@ aws >= 6.0, < 7.0
 
 ## More modules
 
-This is one of **179 verified Terraform modules across 19 cloud platforms** -
+This is one of **673 Terraform modules across 19 cloud platforms** on
+IaC Bazaar, 113 of them live-tested:
 AWS, Azure, GCP, Oracle OCI, Cloudflare, Akamai, DigitalOcean, Linode, Hetzner,
 Vultr, Scaleway, Alibaba, IBM, UpCloud, Civo, Exoscale, OVH, Tencent and Huawei.
 
@@ -53,7 +56,7 @@ Browse the full catalogue at **[www.iac-bazaar.com](https://www.iac-bazaar.com)*
 production landing zones for AWS, Azure and GCP that have each been live-tested
 as a single composed apply.
 
-- Module page: [https://www.iac-bazaar.com/catalog/aws-ecr](https://www.iac-bazaar.com/catalog/aws-ecr)
+- Terraform module 1.0.0, live-tested on IaC Bazaar: [ECR Repository](https://www.iac-bazaar.com/catalog/aws-ecr?utm_source=syndication&utm_medium=readme&utm_campaign=artifact)
 - How verification works: [https://www.iac-bazaar.com/verified](https://www.iac-bazaar.com/verified)
 
 ## Licence
